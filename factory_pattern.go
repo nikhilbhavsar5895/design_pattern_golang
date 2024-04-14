@@ -2,8 +2,11 @@
 // Factory Design Pattern in Go:
 // Why
 // What
+- Creational design pattern
+- To hide the creation logic of the instances
+- Client interacts with factory and tells what kind  of instances need to be created 
+- then the factory interact with concrete object and returns corresponding instance back
 // How
-
 package main
 
 import "fmt"
